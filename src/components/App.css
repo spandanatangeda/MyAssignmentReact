@@ -1,0 +1,8 @@
+.myTable {
+    color: blue;
+}
+
+.ReactTable .rt-thead .rt-resizable-header {
+    overflow: visible;
+    text-align: left;
+}
