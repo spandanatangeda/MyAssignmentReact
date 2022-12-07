@@ -1,8 +1,44 @@
+body{
+    padding: 20px;
+}
 .myTable {
-    color: blue;
+    color: #4583df;
 }
 
 .ReactTable .rt-thead .rt-resizable-header {
     overflow: visible;
     text-align: left;
+}
+.select-option-container{
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row;
+    gap:2rem
+}
+.select-option-container label{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+select.select-options:focus-visible,
+select.select-options:focus,
+select.select-options:active{
+    outline: none;
+}
+select.select-options{
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    background: whitesmoke;
+    padding: 5px;
+    text-transform: uppercase;
+    border: 1px solid lightgrey;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.months-label{
+    text-transform: capitalize;
 }

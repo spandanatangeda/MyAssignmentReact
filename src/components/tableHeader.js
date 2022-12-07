@@ -6,7 +6,7 @@ export const cols = [
       Cell: row => <div>{row.value}</div>
     },    
     {
-      Header:'Month',
+      Header:'Months',
       accessor: 'month',
       Cell: row => <div>{row.value}</div>
     },
@@ -20,11 +20,6 @@ export const cols = [
       accessor: 'points',
       Cell: row => <div>{row.value}</div>
     },
-    {
-        Header:'Total Rewards',
-        accessor: 'CustPoints',
-        Cell: row => <div>{row.value}</div>
-      }
   ];
 
   export const colsData = [
